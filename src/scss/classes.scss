@@ -1,0 +1,9 @@
+@import "./variables";
+
+.current {
+  background-color: $current-color;
+}
+
+.expecting {
+  background-color: $expecting-color;
+}
