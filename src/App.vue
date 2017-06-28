@@ -1,22 +1,19 @@
 <template>
   <div id="app">
-    <item-list style="width: 50%;"></item-list>
-    <item-view style="width: 50%;"></item-view>
+    <router-view></router-view>
   </div>
 </template>
 
 <script>
-  import ItemList from './components/ItemList'
-  import ItemView from './components/ItemView'
-
   export default {
-    components: { ItemList, ItemView }
+    data () {
+      return {}
+    }
   }
 </script>
 
 <style>
   #app {
-    display: flex;
     height: 100%;
     font-family: 'Avenir', Helvetica, Arial, sans-serif;
     -webkit-font-smoothing: antialiased;

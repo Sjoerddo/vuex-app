@@ -10,7 +10,7 @@
   export default {}
 </script>
 
-<style lang="scss" scoped>
+<style lang="scss" type="text/scss" scoped>
   @import "../../scss/variables.scss";
 
   .spinner {
@@ -22,7 +22,7 @@
   .spinner > div {
     width: 18px;
     height: 18px;
-    background-color: $expecting-color;
+    background-color: $current-green;
     border-radius: 100%;
     display: inline-block;
     -webkit-animation: sk-bouncedelay 1.4s infinite ease-in-out both;

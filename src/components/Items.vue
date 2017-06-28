@@ -1,6 +1,10 @@
 <template>
   <section class="items">
-    <item @click.native="select(item)" v-for="(item, index) in items" :item="item" :key="index"></item>
+    <item @click.native="select(item)"
+          v-for="(item, index) in items"
+          :item="item"
+          :key="index">
+    </item>
   </section>
 </template>
 
@@ -22,12 +26,17 @@
   }
 </script>
 
-<style lang="scss" scoped>
+<style lang="scss" type="text/scss" scoped>
+  @import "../scss/variables.scss";
   @import "../scss/classes.scss";
 
   .items {
-    /*width: 50%;*/
     overflow-y: auto;
     height: 100%;
+  }
+
+  .active-item {
+    color: $active-orange;
+    text-decoration: underline;
   }
 </style>
