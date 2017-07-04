@@ -1,5 +1,5 @@
-import getItems from '../../data/api'
-import * as types from '../mutation-types'
+import { getItems } from "../../data/api"
+import * as types from "../mutation-types"
 
 const state = {
   items: [],

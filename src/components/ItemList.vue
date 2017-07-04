@@ -58,12 +58,5 @@
       top: 16px;
       right: 16px;
     }
-
-    .nav-title {
-      font-size: 26px;
-      color: white;
-      margin-right: auto;
-      margin-left: 16px;
-    }
   }
 </style>
