@@ -1,5 +1,5 @@
-import ItemList from "../components/ItemList"
-import ItemView from "../components/ItemView"
+import ItemList from '../components/ItemList'
+import ItemView from '../components/ItemView'
 
 const routes = [
   { path: '*', redirect: '/list' },

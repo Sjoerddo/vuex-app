@@ -1,4 +1,4 @@
-import request from "../fetch"
+import request from '../fetch'
 
 const Url = 'http://deni-deni-node-app.1d35.starter-us-east-1.openshiftapps.com'
 

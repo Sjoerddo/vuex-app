@@ -15,12 +15,10 @@
         <img class="item-poster" :src="item.poster"/>
         <div class="scores">
           <div>
-            <!--<img src="../assets/user.svg" class="icon"/>-->
             Audience
             <p class="score" :class="scoreColorClass(score.audience)">{{ score.audience }}</p>
           </div>
           <div>
-            <!--<img src="../assets/star.svg" class="icon"/>-->
             Critic
             <p class="score" :class="scoreColorClass(score.critic)">{{ score.critic }}</p>
           </div>
